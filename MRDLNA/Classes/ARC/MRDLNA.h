@@ -35,6 +35,8 @@
 @property(nonatomic,copy) NSString *playUrl;
 
 @property(nonatomic,assign) NSInteger searchTime;
+@property(nonatomic,strong) CLUPnPServer *upd;              //MDS服务器
+@property(nonatomic,strong) CLUPnPRenderer *render;         //MDR渲染器
 
 /**
  单例
